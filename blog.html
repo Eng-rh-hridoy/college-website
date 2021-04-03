@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="sub_navigation">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav_link" id="navLink">
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate And Online Programs</h1>
+    </header>
+
+    <!-- Blog Content -->
+
+    <section class="blog_content">
+        <div class="row">
+            <div class="blog_left">
+                <img src="image/certificate.jpg" alt="">
+                <h2>Our Certificate And Online Programs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Ullam exercitationem dolorem temporibus quasi delectus 
+                    tenetur similique consequatur repudiandae maiores. Debitis 
+                    repellat officiis, laborum hic ea eius explicabo fugit culpa 
+                    laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Error nihil, aspernatur itaque ut, explicabo quasi minus
+                    nulla perspiciatis at libero neque porro laboriosam. Nisi, 
+                    tempore.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                   Culpa consequatur aspernatur error cupiditate quam facilis 
+                   harum earum! Tenetur facere deserunt possimus praesentium 
+                   molestias magnam blanditiis? Lorem ipsum dolor, sit amet consectetur
+                   adipisicing elit. Voluptates numquam minus consequuntur 
+                   quaerat officiis, quas animi provident fuga culpa mollitia!</p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio 
+                    praesentium ratione veritatis non deserunt quod cupiditate nostrum 
+                    consequuntur officiis reiciendis? Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quo quae libero rem vero omnis dicta harum possimus dolorum? 
+                    Animi deserunt nihil non aut quaerat libero labore consectetur reiciendis illo
+                     deleniti!</p><br>
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Ullam exercitationem dolorem temporibus quasi delectus 
+                        tenetur similique consequatur repudiandae maiores. Debitis 
+                        repellat officiis, laborum hic ea eius explicabo fugit culpa 
+                        laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Error nihil, aspernatur itaque ut, explicabo quasi minus
+                        nulla perspiciatis at libero neque porro laboriosam. Nisi, 
+                        tempore.</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                       Culpa consequatur aspernatur error cupiditate quam facilis 
+                       harum earum! Tenetur facere deserunt possimus praesentium 
+                       molestias magnam blanditiis? Lorem ipsum dolor, sit amet consectetur
+                       adipisicing elit. Voluptates numquam minus consequuntur 
+                       quaerat officiis, quas animi provident fuga culpa mollitia!</p>
+                    <div class="comment_box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment_form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="your comment....">
+
+                            </textarea>
+                            <button type="submit" class="header-btn red_btn">POST COMMENT</button>
+                        </form>
+                    </div>                       
+            </div>
+            <div class="blog_right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Sciense</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Software Engneering</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Civil Engneering</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Pharmacy</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Texttile Engneering</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
+        elit. Provident <br>iusto est atque maxime cumque 
+        neque.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>All rights reserved <i class="far fa-copyright"></i> RH Hridoy</p>
+
+</section>
+
+
+
+
+
+
+    <!-- J.script for font_awesome kid-->
+    <script src="https://kit.fontawesome.com/d65dce6d94.js" crossorigin="anonymous"></script>
+    
+    <!-- JavaScript fir toggle **Menu** -->
+    <script>
+
+        var navLink = document.getElementById("navLink");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
